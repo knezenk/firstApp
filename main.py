@@ -19,7 +19,7 @@ class LiveApp(MDApp, App):
     }
 
     AUTORELOADER_PATHS = [
-         (".", {"recursive": False}),
+         (".", {"recursive": True}),
     ]
 
     RAISE_ERROR = True
